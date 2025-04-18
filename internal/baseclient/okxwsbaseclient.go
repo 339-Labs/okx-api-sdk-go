@@ -178,7 +178,7 @@ func (p *OkxWsBaseClient) ReadLoop() {
 
 		v, e := jsonMap["code"]
 
-		if e && int(v.(float64)) != 0 {
+		if e && v != "0" {
 			p.ErrorListener(message)
 			continue
 		}

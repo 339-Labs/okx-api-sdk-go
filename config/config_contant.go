@@ -1,9 +1,10 @@
 package config
 
-// todo Do not commit configuration files to Git.  配置请勿提交git
+// todo Do not commit configuration files to Git.
 const (
-	// 子账户 kit3
+	// child account kit3
 	OkxApiKey       = ""
 	OkxApiSecretKey = ""
 	OkxPassphrase   = ""
+	Url             = ""
 )
